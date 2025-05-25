@@ -1,0 +1,42 @@
+{
+  "name": "@mksudo/ts-builder",
+  "version": "1.0.0",
+  "description": "A type aware builder for typescript projects",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "clean": "rimraf dist",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "builder"
+  ],
+  "author": "mksudo <mkzhanghl@gmail.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.5",
+    "@types/node": "^22.15.21",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mksudo/ts-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mksudo/ts-builder/issues"
+  }
+}
