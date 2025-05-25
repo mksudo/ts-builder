@@ -7,7 +7,7 @@ A type safe builder for typescript projects
 1. Use declaration merging to declare builder schema
 
 ```ts
-declare module "@mksudo/builder" {
+declare module "@mksudo/ts-builder" {
   interface Schemas {
     expr: {
       key: string;
