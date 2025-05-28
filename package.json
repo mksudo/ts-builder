@@ -3,8 +3,8 @@
   "version": "1.0.1",
   "description": "A type aware builder for typescript projects",
   "type": "module",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "LICENSE",
