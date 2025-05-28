@@ -1,6 +1,6 @@
 {
   "name": "@mksudo/ts-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A type aware builder for typescript projects",
   "type": "module",
   "main": "dist/index.js",
